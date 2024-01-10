@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicolas Huanca">
+    <meta name="keywords" content="html,css,javascript,juego memoria">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Roboto&family=Rubik+Iso&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Juego de Memoria</title>
+</head>
+
+<body>
+    <main>
+        <!-- tablero -->
+        <section class="section1">
+            <h1>juego de Memoria</h1>
+            <table>
+                <tr>
+                    <td><button id="0"></button></td>
+                    <td><button id="1"></button></td>
+                    <td><button id="2"></button></td>
+                    <td><button id="3"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4"></button></td>
+                    <td><button id="5"></button></td>
+                    <td><button id="6"></button></td>
+                    <td><button id="7"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8"></button></td>
+                    <td><button id="9"></button></td>
+                    <td><button id="10"></button></td>
+                    <td><button id="11"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12"></button></td>
+                    <td><button id="13"></button></td>
+                    <td><button id="14"></button></td>
+                    <td><button id="15"></button></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- estadisticas -->
+        <section class="section2">
+            <h2 id="aciertos" class="estadisticas">Aciertos: 0</h2>
+            <h2 id="t-restante" class="estadisticas"></h2>
+            <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
+        </section>
+    </main>
+
+    <!-- <footer>
+        <p></p>
+    </footer> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

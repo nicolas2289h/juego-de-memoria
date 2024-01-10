@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: radial-gradient(circle, rgb(0, 201, 171) 0%, rgba(52, 153, 185, 1) 50%, rgb(9, 73, 75) 100%); */
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+    color: #fff;
+    background-image: url(../assets/img/bg1.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main {
+    margin: 0px 0 10px 0;
+    /* width: 60%; */
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section1 {
+    width: 390px;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 7px 0;
+}
+
+button {
+    height: 90px;
+    width: 90px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.aclarar {
+    color: #000;
+}
+
+/* section2 */
+.section2 {
+    width: 240px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 9px;
+    margin-bottom: 10px;
+}
+
+.estadisticas {
+    border: 1px solid #fff;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px 0 20px;
+}
+
+/* footer {
+    width: 200px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .2);
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+} */
+
+@media (max-width:768px) {
+    body{
+    background-position: center;
+    }
+    
+    button {
+        height: 75px;
+        width: 75px;
+    }
+
+    main {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .section2 {
+        width: 250px;
+    }
+}
+
+@media (max-width:450px) {
+    button {
+        height: 75px;
+        width: 75px;
+    }
+
+    main {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .section2 {
+        width: 250px;
+    }
+
+    /* footer {
+        margin-bottom: 60px;
+
+    } */
+}
+
+@media (max-width:390px){
+    main{
+        transform: scale(.87);
+    }
+}
